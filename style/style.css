@@ -377,6 +377,8 @@ a{
   .ourplans__item{
       display: grid;
       justify-content: center;
+      padding-left: 30px !important;
+      padding-right: 30px !important;
   }
 
   .ourplans__item:last-child{
