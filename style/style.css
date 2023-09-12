@@ -43,7 +43,7 @@ a{
 
 .banner__detalhe{
   position: absolute;
-  top: -80px;
+  top: 0px;
   left: -10px;
   z-index: -1;
   min-width: 544px;
