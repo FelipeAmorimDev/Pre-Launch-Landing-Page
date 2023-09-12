@@ -1,0 +1,34 @@
+.font-1-xl{
+  font-family: 'Manrope', sans-serif;
+  font-size: 48px;
+  line-height: 1.166;
+  font-weight: 800;
+}
+
+.font-1-x{
+  font-family: 'Manrope', sans-serif;
+  font-size: 40px;
+  line-height: 1.375;
+  font-weight: 800;
+}
+
+.font-1-l{
+  font-family: 'Manrope', sans-serif;
+  font-size: 32px;
+  line-height: 1.375;
+  font-weight: 800;
+}
+
+.font-1-s{
+  font-family: 'Manrope', sans-serif;
+  font-size: 18px;
+  line-height: 1.388;
+  font-weight: 800;
+}
+
+.font-1-b{
+  font-family: 'Manrope', sans-serif;
+  font-size: 15px;
+  line-height: 1.666;
+  font-weight: 500;
+}

@@ -1,0 +1,87 @@
+@import url("./fontes.css");
+@import url("./cores.css");
+body{
+  margin: 0px;
+}
+
+h1,h2,h3,h4,p{
+  margin: 0px;
+}
+
+ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header */
+
+.header__bg{
+  background-color: var(--cor-5);
+  position: relative;
+}
+
+.header__container{
+  max-width: 1110px;
+  margin: 0 auto;
+  
+}
+
+.header__top{
+  padding: 81px 0px 114px;
+}
+
+.banner__detalhe{
+  position: absolute;
+  top: -80px;
+  left: -10px;
+  z-index: -1;
+  min-width: 544px;
+}
+
+.banner__left{
+  position: absolute;
+  top: 230px;
+  left: -53px;
+}
+
+.banner__right{
+  position: absolute;
+  top: 230px;
+  right: -59.5px;
+}
+
+.header__banner{
+  height: 459px;
+  
+}
+
+.banner__description{
+  max-width: 540px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.banner__title{
+  margin-bottom: 24px;
+}
+
+.banner__text{
+  margin-bottom: 64px;
+}
+
+.banner__scroll img{
+  margin: 0 auto;
+}
