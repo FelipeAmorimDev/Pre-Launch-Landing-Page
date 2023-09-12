@@ -2,6 +2,11 @@
 @import url("./cores.css");
 body{
   margin: 0px;
+  overflow-x: hidden;
+  position: relative;
+}
+html,body{
+  overflow-x: hidden;
 }
 
 h1,h2,h3,h4,p{
@@ -29,6 +34,7 @@ a{
 .header__bg{
   background-color: var(--cor-5);
   position: relative;
+  
 }
 
 .header__container{
@@ -38,7 +44,8 @@ a{
 }
 
 .header__top{
-  padding: 81px 0px 114px;
+  
+  padding: 81px 24px 114px;
 }
 
 .banner__detalhe{
@@ -85,4 +92,78 @@ a{
 
 .banner__scroll img{
   margin: 0 auto;
+}
+
+.banner__mobile{
+  display: none;
+}
+
+@media (max-width:1250px){
+  .banner__left,.banner__right{
+    width: 314px;
+    height: 356px;
+  }
+
+  .banner__left{
+    left: -168.73px;
+  }
+
+  .banner__right{
+    right: -171px;
+  }
+
+}
+
+@media (max-width:1000px){
+  .banner__title{
+    max-width: 16ch;
+    margin: 0 auto 24px;
+  }
+  .banner__detalhe{
+    min-width: 386px;
+    height: 268px;
+    left: 80px;
+    top: 50px;
+  }
+
+  .banner__text{
+    max-width: 48ch;
+    margin: 0 auto 32px;
+  }
+  .banner__description{
+    padding: 101px 24px;
+  }
+  .header__top{
+    padding: 48px 24px 77px;
+  }
+}
+
+@media(max-width:760px){
+.banner__mobile{
+  display: block;
+  min-width: 410px;
+  min-height: 233px;
+}
+
+.banner__left,.banner__detalhe,.banner__right{
+  display: none;
+}
+
+.header__banner{
+  height: initial;
+}
+
+.banner__description{
+  padding: 47.5px 24px 0px;
+}
+
+.header__top{
+  display: flex;
+  justify-content: center;
+  padding: 40px 24px 65px;
+}
+
+.banner__title{
+  max-width: 15ch;
+}
 }
