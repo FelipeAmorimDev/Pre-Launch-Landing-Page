@@ -1,0 +1,33 @@
+body{
+  margin: 0px;
+  overflow-x: hidden;
+  position: relative;
+  background-color: var(--cor-5);
+}
+html,body{
+  overflow-x: hidden;
+}
+
+h1,h2,h3,h4,p{
+  margin: 0px;
+}
+
+ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+button{
+  border: none;
+}

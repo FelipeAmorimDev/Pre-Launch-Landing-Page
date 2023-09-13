@@ -18,4 +18,3 @@ const handleSubmit = (event) =>{
 
 formElement.addEventListener("submit",handleSubmit)
 
-console.log(formElement)

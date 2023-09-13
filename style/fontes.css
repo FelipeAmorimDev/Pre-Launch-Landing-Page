@@ -31,7 +31,9 @@
   font-size: 15px;
   line-height: 1.666;
   font-weight: 500;
+  
 }
+
 
 @media (max-width:1000px){
   .font-1-xl{

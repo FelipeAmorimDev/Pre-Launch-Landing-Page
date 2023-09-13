@@ -13,17 +13,17 @@
 </head>
 
 <body>
-  <header class="header__bg">
+  <header class="header__bg" aria-labelledby="banner__title">
     <div class="header__container">
       <div class="header__top">
         <a href="http://"><img src="./assets/logo.svg" alt="logo"></a>
       </div>
       <div class="header__banner">
         <img src="./assets/illustration-hero-mobile.png" alt="hero mobile" class="banner__mobile">
-        <img src="./assets/illustration-hero-left.svg" alt="left" class="banner__left">
+        <img src="./assets/illustration-hero-left.svg" alt="hero left" class="banner__left">
         <div class="banner__description">
           <img src="./assets/bg-hero-squiggle.svg" alt="" class="banner__detalhe">
-          <h1 class="banner__title font-1-xl cor-4">Get paid for the work
+          <h1 class="banner__title font-1-xl cor-4" id="banner__title">Get paid for the work
             you <span class="cor-1">love</span> to do.</h1>
           <p class="banner__text font-1-b cor-3">The 9-5 grind is so last century. We believe in living life on your own
             terms. Whether you’re looking to escape the rat race or set up a side hustle, we’ve got you covered.</p>
@@ -32,116 +32,125 @@
           </div>
 
         </div>
-        <img src="./assets/illustration-hero-right.svg" alt="right" class="banner__right">
+        <img src="./assets/illustration-hero-right.svg" alt="hero right" class="banner__right">
       </div>
     </div>
   </header>
+  <main aria-label="Região Principal">
+    <section class="vantagens__bg" aria-labelledby="vantagens__title">
+      <div class="vantagens__container">
+        <ul class="vantagens__list">
+          <li class="vantagens__item">
+            <div class="picture__container">
+              <img src="./assets/illustration-passions.svg" alt="passion" class="vantagens__photo">
+            </div>
 
-  <section class="vantagens__bg">
-    <div class="vantagens__container">
-      <ul class="vantagens__list">
-        <li class="vantagens__item">
-          <div class="picture__container">
-            <img src="./assets/illustration-passions.svg" alt="passion" class="vantagens__photo">
-          </div>
+            <h3 class="vantagens__title font-1-s cor-4" id="vantagens__title">Indulge your passions</h3>
+            <p class="vantagens__text font-1-b cor-3">Your passions shouldn't be just for the weekend. Earn a living
+              doing what you love.
+            </p>
+          </li>
+          <li class="vantagens__item">
+            <div class="picture__container">
+              <img src="./assets/illustration-financial-freedom.svg" alt="freedom" class="vantagens__photo">
+            </div>
+            <h3 class="vantagens__title font-1-s cor-4">Gain financial freedom</h3>
+            <p class="vantagens__text font-1-b cor-3">Start making money work for you. There’s nothing quite like
+              earning while you
+              sleep.</p>
+          </li>
+          <li class="vantagens__item">
+            <div class="picture__container">
+              <img src="./assets/illustration-lifestyle.svg" alt="lifestyle" class="vantagens__photo">
+            </div>
 
-          <h3 class="vantagens__title font-1-s cor-4">Indulge your passions</h3>
-          <p class="vantagens__text font-1-b cor-3">Your passions shouldn't be just for the weekend. Earn a living doing what you love.
-          </p>
-        </li>
-        <li class="vantagens__item">
-          <div class="picture__container">
-            <img src="./assets/illustration-financial-freedom.svg" alt="passion" class="vantagens__photo">
-          </div>
-          <h3 class="vantagens__title font-1-s cor-4">Gain financial freedom</h3>
-          <p class="vantagens__text font-1-b cor-3">Start making money work for you. There’s nothing quite like earning while you
-            sleep.</p>
-        </li>
-        <li class="vantagens__item">
-          <div class="picture__container">
-            <img src="./assets/illustration-lifestyle.svg" alt="passion" class="vantagens__photo">
-          </div>
+            <h3 class="vantagens__title font-1-s cor-4">Choose your lifestyle</h3>
+            <p class="vantagens__text font-1-b cor-3">Own your daily schedule. Fancy a lie-in? Go for it! Take charge of
+              your week.</p>
+          </li>
+          <li class="vantagens__item">
+            <div class="picture__container">
+              <img src="./assets/illustration-work-anywhere.svg" alt="work anywhere" class="vantagens__photo">
+            </div>
 
-          <h3 class="vantagens__title font-1-s cor-4">Choose your lifestyle</h3>
-          <p class="vantagens__text font-1-b cor-3">Own your daily schedule. Fancy a lie-in? Go for it! Take charge of your week.</p>
-        </li>
-        <li class="vantagens__item">
-          <div class="picture__container">
-            <img src="./assets/illustration-work-anywhere.svg" alt="passion" class="vantagens__photo">
-          </div>
+            <h3 class="vantagens__title font-1-s cor-4">Work from anywhere</h3>
+            <p class="vantagens__text font-1-b cor-3">Selling online means not being pinned down. Want to work AND
+              travel? Go for it!</p>
+          </li>
+        </ul>
+      </div>
+    </section>
 
-          <h3 class="vantagens__title font-1-s cor-4">Work from anywhere</h3>
-          <p class="vantagens__text font-1-b cor-3">Selling online means not being pinned down. Want to work AND travel? Go for it!</p>
-        </li>
-      </ul>
-    </div>
-  </section>
+    <section class="ourplans__bg" aria-labelledby="ourplans__title">
+      <div class="ourplans__container">
+        <h2 class="ourplans__title font-1-l cor-4" id="ourplans__title">Our pricing plans</h2>
+        <p class="ourplans__text font-1-b cor-3">We only make money when our creators make money. Our plans are always
+          affordable, and it’s completely free to get started.</p>
+        <ul class="ourplans__list">
+          <li class="ourplans__item">
+            <h3 class="ourplan__title font-1-s cor-4">Dip your toe</h3>
+            <p class="ourplan__text font-1-b cor-4">Just getting started? No problem at all! Our free plan will take you
+              a long way.</p>
+            <span class="ourplan__price font-1-x cor-4">Free</span>
+            <ul class="ourplan__vantagens">
+              <li class="ourplan__vantagem">
+                <img src="./assets/icon-check1.svg" alt="check">
+                <p class="font-1-b cor-4">Unlimited products</p>
+              </li>
+              <li class="ourplan__vantagem">
+                <img src="./assets/icon-check1.svg" alt="check">
+                <p class="font-1-b cor-4">Basic analytics</p>
+              </li>
+              <li class="ourplan__vantagem">
+                <img src="./assets/icon-check1.svg" alt="check">
+                <p class="font-1-b cor-4">Limited marketplace exposure</p>
+              </li>
+              <li class="ourplan__vantagem">
+                <img src="./assets/icon-check1.svg" alt="check">
+                <p class="font-1-b cor-4">10% fee per transaction</p>
+              </li>
+            </ul>
+          </li>
+          <li class="ourplans__item">
+            <h3 class="ourplan__title font-1-s cor-5 paid">Dive right in</h3>
+            <p class="ourplan__text font-1-b cor-5">Ready for the big time? Our paid plan will help you take your
+              business to the next level.</p>
+            <span class="ourplan__price font-1-x cor-5">$25.00 <span class="font-1-b cor-5">/ month</span></span>
+            <ul class="ourplan__vantagens">
+              <li class="ourplan__vantagem">
+                <img src="./assets/icon-check.svg" alt="check">
+                <p class="font-1-b cor-5">Custom domain</p>
+              </li>
+              <li class="ourplan__vantagem">
+                <img src="./assets/icon-check.svg" alt="check">
+                <p class="font-1-b cor-5">Advanced analytics and reports</p>
+              </li>
+              <li class="ourplan__vantagem">
+                <img src="./assets/icon-check.svg" alt="check">
+                <p class="font-1-b cor-5">High marketplace visibility</p>
+              </li>
+              <li class="ourplan__vantagem">
+                <img src="./assets/icon-check.svg" alt="check">
+                <p class="font-1-b cor-5">5% fee per transaction</p>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </section>
 
-  <section class="ourplans__bg">
-    <div class="ourplans__container">
-      <h2 class="ourplans__title font-1-l cor-4">Our pricing plans</h2>
-      <p class="ourplans__text font-1-b cor-3">We only make money when our creators make money. Our plans are always affordable, and it’s completely free to get started.</p>
-      <ul class="ourplans__list">
-        <li class="ourplans__item">
-          <h3 class="ourplan__title font-1-s cor-4">Dip your toe</h3>
-          <p class="ourplan__text font-1-b cor-4">Just getting started? No problem at all! Our free plan will take you a long way.</p>
-          <span class="ourplan__price font-1-x cor-4">Free</span>
-          <ul class="ourplan__vantagens">
-            <li class="ourplan__vantagem">
-              <img src="./assets/icon-check1.svg" alt="check">
-              <p class="font-1-b cor-4">Unlimited products</p>
-            </li>
-            <li class="ourplan__vantagem">
-              <img src="./assets/icon-check1.svg" alt="check">
-              <p class="font-1-b cor-4">Basic analytics</p>
-            </li>
-            <li class="ourplan__vantagem">
-              <img src="./assets/icon-check1.svg" alt="check">
-              <p class="font-1-b cor-4">Limited marketplace exposure</p>
-            </li>
-            <li class="ourplan__vantagem">
-              <img src="./assets/icon-check1.svg" alt="check">
-              <p class="font-1-b cor-4">10% fee per transaction</p>
-            </li>
-          </ul>
-        </li>
-        <li class="ourplans__item">
-          <h3 class="ourplan__title font-1-s cor-5 paid">Dive right in</h3>
-          <p class="ourplan__text font-1-b cor-5">Ready for the big time? Our paid plan will help you take your business to the next level.</p>
-          <span class="ourplan__price font-1-x cor-5">$25.00 <span class="font-1-b cor-5">/ month</span></span>
-          <ul class="ourplan__vantagens">
-            <li class="ourplan__vantagem">
-              <img src="./assets/icon-check.svg" alt="check">
-              <p class="font-1-b cor-5">Custom domain</p>
-            </li>
-            <li class="ourplan__vantagem">
-              <img src="./assets/icon-check.svg" alt="check">
-              <p class="font-1-b cor-5">Advanced analytics and reports</p>
-            </li>
-            <li class="ourplan__vantagem">
-              <img src="./assets/icon-check.svg" alt="check">
-              <p class="font-1-b cor-5">High marketplace visibility</p>
-            </li>
-            <li class="ourplan__vantagem">
-              <img src="./assets/icon-check.svg" alt="check">
-              <p class="font-1-b cor-5">5% fee per transaction</p>
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-  </section>
+  </main>
 
-  <footer class="notified__bg">
-    <img src="./assets/bg-footer-squiggle.svg" alt="" class="footer__pattern">
+  <footer class="notified__bg" aria-labelledby="footer__title">
+    <img src="./assets/bg-footer-squiggle.svg" alt="squiggle" class="footer__pattern">
     <div class="footer__container">
-      <h2 class="footer__title font-1-l cor-4">Get notified when we launch</h2>
+      <h2 class="footer__title font-1-l cor-4" id="footer__title">Get notified when we launch</h2>
       <form class="footer__form" novalidate>
         <div class="email__container">
           <input type="email" class="form__email" id="email" placeholder="Email address" required>
           <p class="email__feedback">Oops! That doesn’t look like an email address</p>
         </div>
-       
+
         <button class="form__notifiedbtn font-1-b">Get notified</button>
       </form>
     </div>
