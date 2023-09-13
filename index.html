@@ -136,12 +136,18 @@
     <img src="./assets/bg-footer-squiggle.svg" alt="" class="footer__pattern">
     <div class="footer__container">
       <h2 class="footer__title font-1-l cor-4">Get notified when we launch</h2>
-      <form class="footer__form">
-        <input type="email" class="form__email" placeholder="Email address">
+      <form class="footer__form" novalidate>
+        <div class="email__container">
+          <input type="email" class="form__email" id="email" placeholder="Email address" required>
+          <p class="email__feedback">Oops! That doesn’t look like an email address</p>
+        </div>
+       
         <button class="form__notifiedbtn font-1-b">Get notified</button>
       </form>
     </div>
   </footer>
+
+  <script src="./scripts/script.js"></script>
 </body>
 
 </html>
